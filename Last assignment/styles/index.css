@@ -1,0 +1,152 @@
+body {
+    padding: 3rem 3rem;
+    background-color: #f5f5f1;
+}
+
+.logo img {
+    display: flex;
+    height: 70px;
+    width: 200px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    
+}
+
+.header .nav {
+    display: flex;
+    margin-left: 15rem;
+    gap: 3rem; 
+}
+
+.contact {
+    display: flex;
+    margin-left: 15rem;
+    height: 2.5rem;
+    width: 15rem;
+    background-color: #475a52;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    border-radius: 20rem;
+    place-content: center;
+    gap: 1.5rem;
+    padding: 20px 0px 0px 0px;
+}
+
+
+.body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   margin-top: 5rem;
+}
+
+span {
+    color: #333c39;
+    /* font-weight: bolder; */
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+
+h6 {
+    color: #88553a;
+    font: 14px Spectral, sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: justify;
+    letter-spacing: 3px;
+    
+}
+
+p {
+    font-size: small;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #646464;
+}
+
+.body .down {
+    display: flex;
+    gap: 3rem; 
+    margin-top: 2rem;
+}
+
+.body .down .started {
+    display: flex;
+    background-color: #475a52;
+    font-family: Arial;
+    font-size: small;
+    border-radius: 20rem;
+    height: 1.5rem;
+    width: 7rem;
+    color: white;
+    padding: 15px 10px 10px 15px;
+    place-content: center;
+    
+}
+
+.home {
+    border-bottom: solid 2px #475a52;
+    padding-bottom: 1rem;
+}
+
+.body .down .learn {
+    display: flex;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    border-radius: 20rem;
+    height: 1.5rem;
+    width: 7rem;
+    color: #475a52;
+    padding: 15px 10px 10px 15px;
+    place-content: center;
+    border: 1.5px solid #475a52;
+    
+}
+
+
+
+.image {
+    display: flex;
+    
+}
+
+.main {
+    width: 20rem;
+    height: 30rem;
+    position: relative;
+    
+   
+
+}
+
+.image .blur {
+   
+    width: 20rem;
+    height: 20rem;
+    position: relative;
+    right: auto;
+   
+}
+
+div .logo2 {
+    
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+    top: 15rem;
+    left: -5rem;
+   
+}
+
+
+
+.image .absolute  {
+    position: absolute;
+    
+} 
